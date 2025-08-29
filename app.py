@@ -6,8 +6,8 @@ from urllib.parse import quote_plus
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import queue
-
-APP_TITLE = "API Counter - Coomer/Kemono Profiles (Columns)"
+VERSION = "0.1"
+APP_TITLE = f"Coomer Profile Checker [{VERSION}]"
 DEFAULT_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
     'Referer': 'https://coomer.st/',
